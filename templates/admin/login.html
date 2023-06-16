@@ -1,0 +1,30 @@
+{% extends "admin/login.html" %}
+
+{% load i18n static %}
+
+{% block extrastyle %}
+{{ block.super }}
+<style>
+#header {
+  background-color: transparent !important;
+}
+</style>
+{% endblock %}
+
+{% block branding %}
+<div class="" style="text-align: center;">
+<h1>
+  <span style="color: black !important; font-size: 30px;">Projectworlds Hostel Database Portal</span>
+  <br />
+  <small>{% block head_title %}{% endblock %}</small>
+</h1>
+</div>
+{% endblock %}
+
+{% block content_title %}
+<div class="" style="text-align: center;">
+<p class="lead" style="font-size: larger">
+Projectworlds management portal for hostel administration.
+</p>
+</div>
+{% endblock %}
