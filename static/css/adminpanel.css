@@ -1,0 +1,23 @@
+.app-auth{
+  display: none;
+}
+
+#recent-actions-module{
+  display: none;
+}
+
+#header{
+  height: 60px;
+}
+
+.colMS{
+  width: 90vw !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.changelink, .inlinechangelink {
+    display: none !important;
+}
